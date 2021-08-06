@@ -93,6 +93,9 @@ class ViewController: NSViewController {
     
     @IBOutlet weak var InactiveYears: NSTextField!
     
+    
+    // Clicking the Compute Button...
+    
     @IBAction func Compute(_ sender: Any) {
         
         // Take data from the textfields if user enters them
@@ -123,6 +126,7 @@ class ViewController: NSViewController {
         print ("Behold the Plot Points: ", points)
     }
     
+    //Clicking the Compare function
     
     @IBAction func Compare(_ sender: Any) {
         
