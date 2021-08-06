@@ -165,6 +165,9 @@ class ViewController: NSViewController {
         self.Chart()
     }
     
+    // All the code functions used in the program are located underneath
+    
+    //The Nest Egg Tracking Function
         func NestEgg() -> Double {
         var WorkingYrs = self.RetirementAge - self.UserAge
         var Remainder: Double = 0.00
@@ -205,6 +208,7 @@ class ViewController: NSViewController {
         return nestEgg
     }
     
+    // The retirement table data Tracking function
     func RetireTable() -> [[Double]]{
         var Remainder: Double = 0.00
         var interest: Double = 0.00
@@ -273,6 +277,7 @@ class ViewController: NSViewController {
         return TableData
     }
     
+    // The "draw-chart" function
     func Chart(){
         let data = LineChartData()
         let ChartPoints = LineChartDataSet(entries: points, label: "Nest Egg")
