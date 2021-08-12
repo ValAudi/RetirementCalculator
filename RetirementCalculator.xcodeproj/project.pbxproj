@@ -7,31 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F09902E2406FB6100BB6CB9 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F09902A2406FB3900BB6CB9 /* Charts.framework */; };
-		2F09902F2406FB6100BB6CB9 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F09902A2406FB3900BB6CB9 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2F4BB34023F3209B0098B94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB33F23F3209B0098B94C /* AppDelegate.swift */; };
 		2F4BB34223F3209B0098B94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB34123F3209B0098B94C /* ViewController.swift */; };
 		2F4BB34423F3209E0098B94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BB34323F3209E0098B94C /* Assets.xcassets */; };
 		2F4BB34723F3209E0098B94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4BB34523F3209E0098B94C /* Main.storyboard */; };
 		2F4BB35323F3209F0098B94C /* RetirementCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB35223F3209F0098B94C /* RetirementCalculatorTests.swift */; };
 		2F4BB35E23F3209F0098B94C /* RetirementCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4BB35D23F3209F0098B94C /* RetirementCalculatorUITests.swift */; };
+		7C4F209826C5B1E90010D747 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4F209526C5B1D00010D747 /* Charts.framework */; };
+		7C4F209926C5B1E90010D747 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4F209526C5B1D00010D747 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2F0990292406FB3900BB6CB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F0990242406FB3900BB6CB9 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
-		2F09902B2406FB3900BB6CB9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2F0990242406FB3900BB6CB9 /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
-		};
 		2F4BB34F23F3209E0098B94C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2F4BB33423F3209B0098B94C /* Project object */;
@@ -46,6 +32,20 @@
 			remoteGlobalIDString = 2F4BB33B23F3209B0098B94C;
 			remoteInfo = RetirementCalculator;
 		};
+		7C4F209426C5B1D00010D747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4F208F26C5B1D00010D747 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		7C4F209626C5B1D00010D747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7C4F208F26C5B1D00010D747 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,7 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2F09902F2406FB6100BB6CB9 /* Charts.framework in Embed Frameworks */,
+				7C4F209926C5B1E90010D747 /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,7 +63,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2F0990242406FB3900BB6CB9 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = ../Charts/Charts.xcodeproj; sourceTree = "<group>"; };
 		2F4BB33C23F3209B0098B94C /* RetirementCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetirementCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4BB33F23F3209B0098B94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F4BB34123F3209B0098B94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		2F4BB35923F3209F0098B94C /* RetirementCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetirementCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4BB35D23F3209F0098B94C /* RetirementCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetirementCalculatorUITests.swift; sourceTree = "<group>"; };
 		2F4BB35F23F3209F0098B94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C4F208F26C5B1D00010D747 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F09902E2406FB6100BB6CB9 /* Charts.framework in Frameworks */,
+				7C4F209826C5B1E90010D747 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,15 +105,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F0990252406FB3900BB6CB9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F09902A2406FB3900BB6CB9 /* Charts.framework */,
-				2F09902C2406FB3900BB6CB9 /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2F09902D2406FB6100BB6CB9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,11 +115,11 @@
 		2F4BB33323F3209B0098B94C = {
 			isa = PBXGroup;
 			children = (
+				7C4F208F26C5B1D00010D747 /* Charts.xcodeproj */,
 				2F4BB33E23F3209B0098B94C /* RetirementCalculator */,
 				2F4BB35123F3209F0098B94C /* RetirementCalculatorTests */,
 				2F4BB35C23F3209F0098B94C /* RetirementCalculatorUITests */,
 				2F4BB33D23F3209B0098B94C /* Products */,
-				2F0990242406FB3900BB6CB9 /* Charts.xcodeproj */,
 				2F09902D2406FB6100BB6CB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -172,6 +163,15 @@
 				2F4BB35F23F3209F0098B94C /* Info.plist */,
 			);
 			path = RetirementCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		7C4F209026C5B1D00010D747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F209526C5B1D00010D747 /* Charts.framework */,
+				7C4F209726C5B1D00010D747 /* ChartsTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +267,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 2F0990252406FB3900BB6CB9 /* Products */;
-					ProjectRef = 2F0990242406FB3900BB6CB9 /* Charts.xcodeproj */;
+					ProductGroup = 7C4F209026C5B1D00010D747 /* Products */;
+					ProjectRef = 7C4F208F26C5B1D00010D747 /* Charts.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -281,18 +281,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		2F09902A2406FB3900BB6CB9 /* Charts.framework */ = {
+		7C4F209526C5B1D00010D747 /* Charts.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Charts.framework;
-			remoteRef = 2F0990292406FB3900BB6CB9 /* PBXContainerItemProxy */;
+			remoteRef = 7C4F209426C5B1D00010D747 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2F09902C2406FB3900BB6CB9 /* ChartsTests.xctest */ = {
+		7C4F209726C5B1D00010D747 /* ChartsTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = ChartsTests.xctest;
-			remoteRef = 2F09902B2406FB3900BB6CB9 /* PBXContainerItemProxy */;
+			remoteRef = 7C4F209626C5B1D00010D747 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

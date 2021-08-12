@@ -289,10 +289,10 @@ class ViewController: NSViewController {
         ChartPoints.drawCirclesEnabled = false
         ChartPoints.drawCircleHoleEnabled = false
         ChartPoints.drawValuesEnabled = false
-        data.addDataSet(ChartPoints)
+        data.append(ChartPoints)
         self.LineChartView.data = data
         self.LineChartView.gridBackgroundColor = NSUIColor.white
-        self.LineChartView.chartDescription?.text = "A Line Chart of Nest Egg Amount over the Years "
+        self.LineChartView.chartDescription.text = "A Line Chart of Nest Egg Amount over the Years "
     }
     
 }
